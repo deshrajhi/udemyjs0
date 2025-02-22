@@ -1,0 +1,89 @@
+img{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+   object-fit: cover;
+   border-radius: 50%;
+}
+h1,p{
+    display:inline ;
+    text-align: center;
+    font-size: small;
+    margin-top: 5px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(47, 31, 167, 0.2);
+    max-width: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+    text-align: center;
+    background-color:blue;
+    height: 200px;
+}
+  .card:hover{
+    background-color: bisque;
+  }
+
+
+/* circles */
+
+  .circle{
+    border-radius: 50%;
+    border: 2px solid white;
+    height: 50px;
+    width: 50px;
+    margin-left: 120px;
+    object-position: center;
+    object-fit: cover;
+    margin-top: 30px;
+  }
+
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+ a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .color{
+    background-color:white;
+    height: 100px;
+    width: 100%;
+  }
+  #details{
+   background-color:blue;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+    height: 30%;
+    margin-top: 10px;
+    border: none;
+    font-size: smaller;
+    border-radius: 25px;
+}
+.icon{
+  display: inline;
+  font-size: small;
+  margin-left: 20px;
+}
+.icon i{
+  margin-left: 40px;
+}
+a{
+  font-size: smaller;
+  margin-left: 20px;
+}
+
+
+
+
